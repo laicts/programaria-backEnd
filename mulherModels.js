@@ -1,6 +1,7 @@
 const mongoose = require('mongoose')
 const { stringify } = require('uuid')
 
+
 const mulherSchema = new mongoose.Schema({
     nome: {
         type: String,
